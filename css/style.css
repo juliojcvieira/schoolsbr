@@ -1,0 +1,387 @@
+/*site inteiro*/
+body{
+	background-image:url(../img/sky.jpg);
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+a{
+	color:#888;
+}
+a:visited{
+	color:#800;
+}
+a:hover{
+	color:#080;
+}
+#heade{
+	width:95%;
+	height:90px;
+	position:relative;
+	margin:auto;
+	font-size:70;
+	z-index:1;
+	text-indent:200px;
+	font-family:"Agency FB";
+	color:#fff;
+	text-shadow:2px 1px #0007;
+}
+#logo{
+	width:90px;
+	height:90px;
+	background-image:url(../img/logo.png);
+	position:absolute;
+	background-size:100%;
+}
+#menu{
+	width:95%;
+	height:52px;
+	background-color:#002;
+	opacity:0.7;
+	position:relative;
+	margin:auto;
+	z-index:2;
+	border:5px solid #000;
+}
+#bt1{
+	color:#fff;
+	width:200px;
+	height:30px;
+	margin-top:10px;
+	position:absolute;
+	border:1px solid #fff;
+	text-align:center;
+	text-indent:2px;
+	font-size:25;
+	font-family:"Agency FB";
+	margin-left:100px;
+}
+#bt1:hover{
+	background-color:white;
+	color:#000;
+}
+#bt2{
+	color:#fff;
+	width:200px;
+	height:30px;
+	margin-top:10px;
+	position:absolute;
+	border:1px solid #fff;
+	text-align:center;
+	text-indent:2px;
+	font-size:25;
+	font-family:"Agency FB";
+	margin-left:320px;
+}
+#bt2:hover{
+	background-color:white;
+	color:#000;
+}
+#bt3{
+	color:#fff;
+	width:200px;
+	height:30px;
+	margin-top:10px;
+	position:absolute;
+	border:1px solid #fff;
+	text-align:center;
+	text-indent:2px;
+	font-size:25;
+	font-family:"Agency FB";
+	margin-left:540px;
+}
+#bt3:hover{
+	background-color:white;
+	color:#000;
+}
+#bt4{
+	color:#fff;
+	width:200px;
+	height:30px;
+	margin-top:10px;
+	position:absolute;
+	border:1px solid #fff;
+	text-align:center;
+	text-indent:2px;
+	font-size:25;
+	font-family:"Agency FB";
+	margin-left:760px;
+}
+#bt4:hover{
+	background-color:white;
+	color:#000;
+}
+#bt5{
+	color:#fff;
+	width:200px;
+	height:30px;
+	margin-top:10px;
+	position:absolute;
+	border:1px solid #fff;
+	text-align:center;
+	text-indent:2px;
+	font-size:25;
+	font-family:"Agency FB";
+	margin-left:980px;
+}
+#bt5:hover{
+	background-color:white;
+	color:#000;
+}
+/*index*/
+#video{
+	z-index:3;
+	position:absolute;
+	margin-top:75px;
+	margin-left:51%;
+}
+#content1{
+	width:48%;
+	height:500px;
+	margin:auto;
+	position:absolute;
+	margin-left:28px;
+	z-index:4;
+	border:5px solid #fff;
+	background-color:#FFF;
+	font-size:19.5;
+	font-family:"Verdana";
+	text-indent:15px;
+}
+/*historia*/
+#content2{
+	width:48%;
+	height:855px;
+	margin:auto;
+	margin-left:28px;
+	z-index:4;
+	border:5px solid #fff;
+	background-color:#FFF;
+	font-size:17.5;
+	font-family:"Verdana";
+	text-indent:15px;
+	position:absolute;
+}
+#historia1{
+	height:340px;
+	width:46.9%;
+	background-image:url(../img/historia1.jpg);
+	margin-left:50%;
+	margin-top:257px;
+	background-size:100%;
+}
+/*turismo*/
+#content3{
+	width:95%;
+	height:700px;
+	margin:auto;
+	margin-left:28px;
+	z-index:4;
+	border:5px solid #fff;
+	background-color:#FFF;
+	font-size:17.5;
+	font-family:"Verdana";
+	text-indent:15px;
+}
+#turismo1{
+	width:380px;
+	height:220px;
+	background-size:100%;
+	text-shadow:1px 1px #000;
+	border:10px solid #0008;
+	color:#fff;
+	margin-left:5px;
+	position:absolute;
+	background-image:url(../img/elefante.jpg);
+}
+#turismo2{
+	width:380px;
+	height:220px;
+	background-size:100%;
+	text-shadow:1px 1px #000;
+	border:10px solid #0008;
+	color:#fff;
+	margin-left:432px;
+	position:absolute;
+	background-image:url(../img/amantikir.jpg);
+}
+#turismo3{
+	width:380px;
+	height:220px;
+	background-size:100%;
+	text-shadow:1px 1px #000;
+	border:10px solid #0008;
+	color:#fff;
+	margin-left:860px;
+	position:absolute;
+	background-image:url(../img/quadriciclo.jpg);
+}
+#turismo4{
+	width:380px;
+	height:220px;
+	background-size:100%;
+	text-shadow:1px 1px #000;
+	border:10px solid #0008;
+	color:#fff;
+	margin-left:205px;
+	margin-top:280px;
+	position:absolute;
+	background-image:url(../img/horto.jpg);
+}
+#turismo5{
+	width:380px;
+	height:220px;
+	background-size:100%;
+	text-shadow:1px 1px #000;
+	border:10px solid #0008;
+	color:#fff;
+	margin-left:642px;
+	margin-top:280px;
+	position:absolute;
+	background-image:url(../img/xilogravuras.jpg);
+}
+/*host*/
+#content4{
+	width:95%;
+	height:450px;
+	margin:auto;
+	margin-left:28px;
+	z-index:4;
+	border:5px solid #fff;
+	background-color:#FFF;
+	font-size:17.5;
+	font-family:"Verdana";
+}
+#botao{
+	background-color:#f50;
+	width:150px;
+	height:50px;
+	font-size:30;
+	font-family:"Agency FB";
+	position:absolute;
+}
+#hotel1{
+	width:40%;
+	height:148px;
+	margin-left:50px;
+	position:absolute;
+	border:1px solid #000;
+}
+#hotelimg1{
+	width:30%;
+	height:135px;
+	margin-left:30px;
+	margin-top:5px;
+	border:1px solid #000;
+	position:absolute;
+	background-image:url(../img/frontenac.jpeg);
+	background-size:100%;
+}
+#hoteltxt{
+	width:60%;
+	height:50%;
+	margin-left:37%;
+	margin-top:5px;
+	position:absolute;
+}
+#hotel2{
+	width:40%;
+	height:148px;
+	margin-left:50%;
+	position:absolute;
+	border:1px solid #000;
+}
+#hotelimg2{
+	width:30%;
+	height:135px;
+	margin-left:30px;
+	margin-top:5px;
+	border:1px solid #000;
+	position:absolute;
+	background-image:url(../img/inn.jpeg);
+	background-size:100%;
+}
+#hotel3{
+	width:40%;
+	height:148px;
+	margin-top:215px;
+	margin-left:50px;
+	position:absolute;
+	border:1px solid #000;	
+}
+#hotelimg3{
+	width:30%;
+	height:135px;
+	margin-left:30px;
+	margin-top:5px;
+	border:1px solid #000;
+	position:absolute;
+	background-image:url(../img/toriba.jpeg);
+	background-size:100%;
+}
+#hotel4{
+	width:40%;
+	height:148px;
+	margin-top:215px;
+	margin-left:50%;
+	position:absolute;
+	border:1px solid #000;	
+}
+#hotelimg4{
+	width:30%;
+	height:135px;
+	margin-left:30px;
+	margin-top:5px;
+	border:1px solid #000;
+	position:absolute;
+	background-image:url(../img/leao.jpeg);
+	background-size:100%;
+}
+/*Curiosidades*/
+#content5{
+	width:95%;
+	height:530px;
+	margin:auto;
+	margin-left:28px;
+	z-index:4;
+	border:5px solid #fff;
+	background-color:#FFF;
+	font-size:15;
+	font-family:"Verdana";
+}
+#contenttxt1{
+	width:45%;
+	height:435px;
+	margin-top:10px;
+	margin-left:15px;
+	position:absolute;
+}
+#contenttxt2{
+	width:45%;
+	height:435px;
+	margin-top:10px;
+	margin-left:650px;
+	position:absolute;
+}
+/*contato*/
+#content6{
+	width:95%;
+	height:450px;
+	margin:auto;
+	margin-left:28px;
+	z-index:4;
+	border:5px solid #fff;
+	background-color:#FFF;
+	font-size:17.5;
+	font-family:"Verdana";
+}
+#fb{
+	margin-left:80px;
+	margin-top:-80px;
+	position:absolute;
+}
+#tt{
+	margin-left:80px;
+	margin-top:-80px;
+	position:absolute;
+}
